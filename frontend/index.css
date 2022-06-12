@@ -1,0 +1,114 @@
+/* screen configs */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul { list-style: none; } 
+
+h1 {
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  color: #3c3c3e;
+}
+
+h3 {
+  color: #3c3c3e;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container {
+  position: relative;
+  max-width: 400px;
+  min-height: 400px;
+  background-color: #fff; 
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 20px auto;
+  border-radius: 1rem;
+}
+
+.name-form {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px;
+}
+
+.message-list {
+  overflow-y: scroll;
+  max-height: 500px;
+}
+
+.message-item {
+  padding: 20px;
+  border-radius: 0.75rem;
+  margin: 20px 0;
+}
+
+.message-item:last-child {
+  margin-bottom: 0;
+}
+
+.item-primary {
+  background-color: #f6f7f8;
+  color: #3c3c3e;
+}
+
+.item-secondary {
+  background-color: #5ccad7;
+  color: #fff;
+}
+
+.message-input {
+  display: flex;
+  padding: 20px 0;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #a5a5a5;
+}
+
+.name-input {
+  width: calc(100% - 140px);
+  margin: 10px 20px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.name-btn {
+  width: 70px;
+  height: 40px;
+}
